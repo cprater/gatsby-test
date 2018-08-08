@@ -22,7 +22,7 @@ export default SecondPage
 
 export const allPersonsQuery = graphql`
   query getAllPersons {
-    person: allPersons {
+    person: allPerson {
       edges {
         person: node {
           name

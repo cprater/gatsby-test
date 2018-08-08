@@ -11,7 +11,7 @@ module.exports = {
       'options': {
         'endpoint': 'https://api-uswest.graphcms.com/v1/cjkikj36x01dd01deskay779m/master',
         'query': `{
-          allPersons: persons {
+          allPerson: persons {
             id
             name
             description
